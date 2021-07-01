@@ -1,0 +1,48 @@
+(base) ]0;~/Fernanda/bleached-coral-detector/app[01;34m~/Fernanda/bleached-coral-detector/app[00m$ [K(base) ]0;~/Fernanda/bleached-coral-detector/app[01;34m~/Fernanda/bleached-coral-detector/app[00m$ unzip Corl[Kal_Bleaching_Website.zip
+unzip:  cannot find or open Coral_Bleaching_Website.zip, Coral_Bleaching_Website.zip.zip or Coral_Bleaching_Website.zip.ZIP.
+(base) ]0;~/Fernanda/bleached-coral-detector/app[01;34m~/Fernanda/bleached-coral-detector/app[00m$ unzip Coral_Bleaching_Website
+unzip:  cannot find or open Coral_Bleaching_Website, Coral_Bleaching_Website.zip or Coral_Bleaching_Website.ZIP.
+(base) ]0;~/Fernanda/bleached-coral-detector/app[01;34m~/Fernanda/bleached-coral-detector/app[00m$ cd my_website
+bash: cd: my_website: No such file or directory
+(base) ]0;~/Fernanda/bleached-coral-detector/app[01;34m~/Fernanda/bleached-coral-detector/app[00m$ dir
+2021-06-30-150108.term  [0m[01;34m__pycache__[0m  ai.py  ai3.py  [01;34mimages[0m  main.py  [01;34mmy_server[0m  requirements.txt  [01;34mstatic[0m  [01;34mtemplates[0m  utils.py  uwsgi.ini  [01;34myolo[0m
+(base) ]0;~/Fernanda/bleached-coral-detector/app[01;34m~/Fernanda/bleached-coral-detector/app[00m$ cd my_server
+(base) ]0;~/Fernanda/bleached-coral-detector/app/my_server[01;34m~/Fernanda/bleached-coral-detector/app/my_server[00m$ unzip Coral_Bleachiin[K[Kng_Website.zip
+Archive:  Coral_Bleaching_Website.zip
+   creating: blog/
+  inflating: blog/blog.html          
+  inflating: blog/post-1.html        
+  inflating: blog/post-2.html        
+  inflating: blog/post-3.html        
+  inflating: blog/post-4.html        
+  inflating: blog/post-5.html        
+  inflating: blog/post.html          
+   creating: images/
+ extracting: images/1.jpeg           
+ extracting: images/2.jpeg           
+ extracting: images/3.jpeg           
+ extracting: images/E15.jpg          
+ extracting: images/IMG_3870.jpg     
+ extracting: images/OceanImageBank_GabrielBarathieu_09.jpg  
+ extracting: images/Screenshot2021-06-301411542.png  
+ extracting: images/ai_camp.png      
+ extracting: images/bleachcoral.jpeg  
+ extracting: images/kai.jpg          
+ extracting: images/mar_bleached.jpeg  
+ extracting: images/marissa_headshot.jpeg  
+ extracting: images/picture-cb9cf18f4cb0d0a1ec30a666fea995ed_5f5fe65ab58e1.jpg  
+ extracting: images/square_headshot_lehigh.png  
+ extracting: images/zoom_pic.png     
+  inflating: Blog-Template.css       
+  inflating: Home.css                
+  inflating: Home.html               
+  inflating: Our-Cause.css           
+  inflating: Our-Cause.html          
+  inflating: Post-Template.css       
+  inflating: Results.css             
+  inflating: Results.html            
+  inflating: index.html              
+  inflating: jquery.js               
+  inflating: nicepage.css            
+  inflating: nicepage.js             
+(base) ]0;~/Fernanda/bleached-coral-detector/app/my_server[01;34m~/Fernanda/bleached-coral-detector/app/my_server[00m$ [K(base) ]0;~/Fernanda/bleached-coral-detector/app/my_server[01;34m~/Fernanda/bleached-coral-detector/app/my_server[00m$ [K(base) ]0;~/Fernanda/bleached-coral-detector/app/my_server[01;34m~/Fernanda/bleached-coral-detector/app/my_server[00m$ [K(base) ]0;~/Fernanda/bleached-coral-detector/app/my_server[01;34m~/Fernanda/bleached-coral-detector/app/my_server[00m$ [K(base) ]0;~/Fernanda/bleached-coral-detector/app/my_server[01;34m~/Fernanda/bleached-coral-detector/app/my_server[00m$ [K(base) ]0;~/Fernanda/bleached-coral-detector/app/my_server[01;34m~/Fernanda/bleached-coral-detector/app/my_server[00m$ [K(base) ]0;~/Fernanda/bleached-coral-detector/app/my_server[01;34m~/Fernanda/bleached-coral-detector/app/my_server[00m$ 

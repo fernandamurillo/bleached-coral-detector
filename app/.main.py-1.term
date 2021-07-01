@@ -1,0 +1,31 @@
+(base) ]0;~/Fernanda/bleached-coral-detector/app[01;34m~/Fernanda/bleached-coral-detector/app[00m$ python3 main.py
+[INFO] loading YOLO from disk...
+Try to open
+
+    https://cocalc7.ai-camp.org/e36d8309-7df3-441c-8333-837fea488725/port/1000/
+
+
+ * Serving Flask app 'main' (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 113, in <module>
+    app.run(host = '0.0.0.0', port=port, debug=True)
+  File "/projects/e36d8309-7df3-441c-8333-837fea488725/miniconda3/lib/python3.8/site-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/projects/e36d8309-7df3-441c-8333-837fea488725/miniconda3/lib/python3.8/site-packages/werkzeug/serving.py", line 982, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+(base) ]0;~/Fernanda/bleached-coral-detector/app[01;34m~/Fernanda/bleached-coral-detector/app[00m$ python3 main.py
+  File "main.py", line 105
+    def 
+       ^
+SyntaxError: invalid syntax
+(base) ]0;~/Fernanda/bleached-coral-detector/app[01;34m~/Fernanda/bleached-coral-detector/app[00m$ python3 main.py
+  File "main.py", line 108
+    if __name__ == "__main__":
+    ^
+IndentationError: expected an indented block
+(base) ]0;~/Fernanda/bleached-coral-detector/app[01;34m~/Fernanda/bleached-coral-detector/app[00m$ [K(base) ]0;~/Fernanda/bleached-coral-detector/app[01;34m~/Fernanda/bleached-coral-detector/app[00m$ 
