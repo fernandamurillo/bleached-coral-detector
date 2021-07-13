@@ -14,14 +14,15 @@ from utils import get_base_url, allowed_file, and_syntax
     port may need to be changed if there are multiple flask servers running on same server
     comment out below three lines of code when ready for production deployment
 '''
-# port = 1000
-# base_url = get_base_url(port)
-# app = Flask(__name__, static_url_path=base_url+'static')
+#port = 1000
+#base_url = get_base_url(port)
+#app = Flask(__name__, static_url_path=base_url+'static')
 
 '''
     cv scaffold code
     uncomment below line when ready for production deployment
 '''
+base_url = ""
 app = Flask(__name__)
 
 UPLOAD_FOLDER = 'images'
@@ -40,12 +41,13 @@ net = get_yolo_net(cfg_path, weights_path)
 
 
 @app.route('/')
-# @app.route(base_url)
+#@app.route(base_url)
 def home():
     return render_template('Home.html')
 
+
 @app.route('/', methods=['POST'])
-# @app.route(base_url, methods=['POST'])
+#@app.route(base_url, methods=['POST'])
 def home_post():
     # check if the post request has the file part
     if 'file' not in request.files:
@@ -58,15 +60,18 @@ def home_post():
     if file.filename == '':
         flash('No selected file')
         return redirect(request.url)
+        # return redirect(url_for('home'))
 
     if file and allowed_file(file.filename):
         filename = secure_filename(file.filename)
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         return redirect(url_for('results', filename=filename))
 
+    return redirect(url_for('home'))
+
 
 @app.route('/uploads/<filename>')
-# @app.route(base_url + '/uploads/<filename>')
+#@app.route(base_url + '/uploads/<filename>')
 def results(filename): 
     image_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
     image = cv2.imread(image_path)
@@ -97,12 +102,12 @@ def results(filename):
         return render_template('Results.html', labels='No Objects', old_filename=filename, filename=filename) 
 
 @app.route('/files/<path:filename>')
-# @app.route(base_url + '/files/<path:filename>')
+#@app.route(base_url + '/files/<path:filename>')
 def files(filename):
     return send_from_directory(UPLOAD_FOLDER, filename, as_attachment=True)
 
 
-@app.route(base_url+ '/ourcause')
+@app.route(base_url + '/ourcause')
 def our_cause():
     return (render_template('OurCause.html'))
 
